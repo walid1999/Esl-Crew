@@ -18,7 +18,18 @@
 <header>
 
     <div class="rectangle1">
-      <h1 class="titreHeader">E.S CREW</h1>
+      <h1 class="titreHeader">ESL CREW</h1>
+    
+      <div class=rectAcceuil>
+        <a class="accueilHeader" href="home.php">Accueil</a>
+      </div>
+      <div class=rectAbonnement>
+        <a class="abonnementHeader" href="buy.php">Abonnement</a>
+      </div>
+      <div class=rectConnexion>
+        <a class="connexionHeader" href="connexion.php">Connexion</a>
+      </div>
+
     </div>
 
 
