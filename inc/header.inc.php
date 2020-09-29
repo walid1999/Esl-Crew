@@ -23,13 +23,14 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li class="current"><a href="home.php">Accueil</a></li>			
 								<li><a href="boutique.php">Boutique</a></li>
+								<li class="current"><a href="home.php">Accueil</a></li>			
+								<li class="current"><a href="connexion.php">Connexion</a></li>
 								<li><a href="sav.php">Service Client</a></li>
-								<li><a href="connexion.php">Connexion</a></li>
+								
 							</ul>
 						</nav>
 
 				
 
-  <?php include("inc/data.inc.php") ?>
+<?php include("inc/data.inc.php"); ?>
