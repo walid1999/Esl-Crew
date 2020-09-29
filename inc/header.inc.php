@@ -1,42 +1,35 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dopetrope by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
 
-<head>
+			<!-- Header -->
+				<section id="header">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+					<!-- Logo -->
+						<h1><a href="index.html">ESL CREW</a></h1>
 
-  <title>Esl CREW</title>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="home.php">Accueil</a></li>			
+								<li><a href="boutique.php">Boutique</a></li>
+								<li><a href="sav.php">Service Client</a></li>
+								<li><a href="connexion.php">Connexion</a></li>
+							</ul>
+						</nav>
 
-
-  <link href="css/style.css" rel="stylesheet">
-
-</head>
-
-<header>
-
-    <div class="rectangle1">
-      <h1 class="titreHeader">ESL CREW</h1>
-    
-      <div class=rectAcceuil>
-        <a class="accueilHeader" href="home.php">Accueil</a>
-      </div>
-      <div class=rectAbonnement>
-        <a class="abonnementHeader" href="buy.php">Abonnement</a>
-      </div>
-      <div class=rectConnexion>
-        <a class="connexionHeader" href="connexion.php">Connexion</a>
-      </div>
-
-    </div>
-
-
-</header>
-
-<body >
-
- 
+				
 
   <?php include("inc/data.inc.php") ?>

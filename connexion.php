@@ -2,6 +2,7 @@
 
 <section>
 
-    <h2 class="titreConnexion">Connexion</h2>
+    
 
 </section>
+
