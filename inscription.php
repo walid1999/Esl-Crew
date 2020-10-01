@@ -12,7 +12,7 @@ if (isset($_POST['inscription'])){
   if(!empty($prenom) AND !empty($nom) AND !empty($mail) AND !empty($identifiant) AND !empty($motdepasse)){
     $requeteSQL = $pdo->prepare("INSERT INTO profil (prenom, nom, mail, identifiant, mot_de_passe) VALUES (?, ?, ?, ?, ?)");
     $requeteSQL->execute(array($prenom, $nom, $mail, $identifiant, $motdepasse));
-    header('Location: login.php');
+    header('Location: connexion.php');
     }
   else {
        $message = 'Tous les champs doivent être complétés. ';
