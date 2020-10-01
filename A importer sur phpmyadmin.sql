@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : jeu. 01 oct. 2020 à 11:10
+-- Généré le : jeu. 01 oct. 2020 à 13:59
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP : 7.4.6
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `eslcrew`
 --
+CREATE DATABASE IF NOT EXISTS `eslcrew` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `eslcrew`;
 
 -- --------------------------------------------------------
 
