@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : jeu. 01 oct. 2020 à 10:14
+-- Généré le : jeu. 01 oct. 2020 à 11:10
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP : 7.4.6
 
@@ -18,10 +18,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `leboncoup`
+-- Base de données : `eslcrew`
 --
-CREATE DATABASE IF NOT EXISTS `EslCrew` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `EslCrew`;
 
 -- --------------------------------------------------------
 
@@ -45,10 +43,10 @@ CREATE TABLE `annonces` (
 --
 
 INSERT INTO `annonces` (`id_annonces`, `titre`, `prix`, `description`, `img_annonce`, `statut`, `date_publication`, `id_profil`) VALUES
-(13, 'Vélo électrique', '36', NULL, 'img/veloelectrique.png', NULL, NULL, 6),
-(14, 'Trottinette électrique', '9 000', NULL, 'img/trotinette.png', NULL, NULL, 6),
-(15, 'Monocycle', '45', NULL, 'img/monocycle.png', NULL, NULL, 6),
-(16, 'Gyropode', '78', NULL, 'img/gyropode.jpg', NULL, NULL, 6);
+(13, 'Vélo électrique', '599', NULL, 'img/veloelectrique.png', NULL, NULL, 6),
+(14, 'Trottinette électrique', '399', NULL, 'img/trotinette.png', NULL, NULL, 6),
+(15, 'Monocycle', '799', NULL, 'img/monocycle.png', NULL, NULL, 6),
+(16, 'Gyropode', '1999', NULL, 'img/gyropode.jpg', NULL, NULL, 6);
 
 -- --------------------------------------------------------
 
