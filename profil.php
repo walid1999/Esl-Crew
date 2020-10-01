@@ -19,7 +19,7 @@ if(isset($_SESSION["id"])){
   }
 
 ?>  
-<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="annonce">
+<section class="contact-form" id="annonce">
       <div class="profil">
         
       <a class="navbar-brand js-scroll-trigger" href="index.php">         
@@ -33,16 +33,16 @@ if(isset($_SESSION["id"])){
         <p class="profil">Nom : <?php echo $userinfo['nom']; ?></p>
         <p class="profil">Mail : <?php echo $userinfo['mail']; ?></p>
 
-        <form class="login" action="" method="post" name="login">
-        <input type="submit" value="Editer profil " name="editer" class="box-button">
-        <input type="submit" value="Se deconnecter " name="deconnexion" class="box-button">
+        <form class="form-group" action="" method="post" name="login">
+        <input type="submit" value="Editer profil " name="editer" >
+        <input type="submit" value="Se deconnecter " name="deconnexion" class="form-group">
         </form>
 
 
     
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
+        
+          
           
        
     </section>
@@ -52,3 +52,5 @@ if(isset($_SESSION["id"])){
 else {
   header("Location: connexion.php");
     } ?>
+
+<?php include("inc/footer.inc.php"); ?>       

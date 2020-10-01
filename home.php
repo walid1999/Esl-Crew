@@ -9,15 +9,20 @@ session_start();
 
  ?>
 
+<section class="hero">
+        <div class="hero-content">
+            <h1>Nous vivons dans l'ombre pour servir la lumière</h1>                                    
+        </div>                       
+</section>
 	<!-- Banner -->
     <section id="banner">
         <header>
-            <h2>Nous vivons dans l'ombre</h2>
-            <p>pour servir la lumière</p>
+            <h2></h2>
+            <p></p>
         </header>
     </section>
 
 
-
+    <?php include("inc/footer.inc.php"); ?>
 
 

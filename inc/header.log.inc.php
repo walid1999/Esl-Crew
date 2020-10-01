@@ -1,37 +1,52 @@
-<!DOCTYPE HTML>
-<!--
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Dopetrope by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Webflow</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+    <script src="https://kit.fontawesome.com/45109b19e5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<div class="contenu">
+    <header >
 
-			<!-- Header -->
-				<section id="header">
+		<h2>ESL CREW</h2>
+        
+		<nav>
+			<ul>
+				<li>
+					<a href="home.php">Accueil</a>
+                </li>
+                
+				<li>
+					<a href="boutique.php">Boutique</a>
+                </li>
+                
+				<li>
+					<a href="sav.php">Service client</a>
+                </li>
 
-					<!-- Logo -->
-						<h1><a href="index.html">ESL CREW</a></h1>
+                <li>
+                    <a href="panier.php">
+						<i class="fas fa-shopping-basket"></i>
+                    </a>
+                </li>
+            </ul>           
+        </nav>
+            <ul>
+				<li>
+                 	<a class="connexion" href="profil.php"  >
+					 	Mon compte
+				 		
+                 	</a> 
+				</li>
+            </ul>
+    </header>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-									
-								<li><a href="boutique.php">Boutique</a></li>
-                <li><a href="sav.php">Service Client</a></li>	
-                <li class="current"><a href="home.php">Accueil</a></li>	
-                <li><a href="panier.php">Mon panier</a></li>           
-								<li><a href="profil.php">Mon profil</a></li>
-							</ul>
-						</nav>
-
-				
+	<main>
 
 <?php include("inc/data.inc.php"); ?>

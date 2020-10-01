@@ -9,3 +9,4 @@ session_start();
 
  ?>
 
+<?php include("inc/footer.inc.php"); ?>

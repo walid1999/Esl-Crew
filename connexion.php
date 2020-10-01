@@ -26,18 +26,28 @@ if (isset($_POST['connexion'])){
  
 }
 ?>
-<h1 class="box-title">Connexion</h1>
-<form class="login" action="" method="post" name="login">
-<input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur"></br></br>
-<input type="password" class="box-input" name="password" placeholder="Mot de passe"></br></br>
-<input type="submit" value="Connexion " name="connexion" class="box-button">
+<br/><br/>
+<h1 style="text-align: center">Connexion</h1>
+<section class="contact-form">
 
-<a class="nav-link js-scroll-trigger" href="inscription.php">S'inscrire</a>
+        
+    
+        <form class="form-group" action="" method="post" name="login">
+            
+                <input type="text"  name="username" placeholder="Nom d'utilisateur"></br></br>
+            
+                <input type="password" class="box-input" name="password" placeholder="Mot de passe"></br></br>
+                <input type="submit" value="Connexion " name="connexion" class="box-button">
 
-<?php if (! empty($message)) { ?>
-    <p><?php echo $message; ?></p>
-<?php } ?>
-</form>
+          <a class="nav-link js-scroll-trigger" href="inscription.php">S'inscrire</a>
+
+          <?php if (! empty($message)) { ?>
+              <p><?php echo $message; ?></p>
+          <?php } ?>
+      </form>
+</section>
+
+
 
 
 <?php include("inc/footer.inc.php"); ?>

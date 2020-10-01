@@ -20,9 +20,11 @@ if (isset($_POST['inscription'])){
  
 }
 ?>
+<h1 style="text-align: center">Inscription</h1>
+<section class="contact-form">
 
-<h1 class="box-title">Inscription</h1>
-<form class="inscription" action="" method="post" name="inscription">
+
+<form class="form-group" action="" method="post" name="inscription">
   <div class="form-group">
     <h5 for="text">Nom</h5>
     <input type="text" class="form-control" name="nom" id="">
@@ -44,5 +46,12 @@ if (isset($_POST['inscription'])){
     <input type="email" class="form-control" name="mail" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   
-  <button type="submit" name="inscription" class="btn btn-primary">SIGN UP</button>
+  <input type="submit" value="S'inscrire" name="inscription">
 </form>
+<?php if (! empty($message)) { ?>
+              <p><?php echo $message; ?></p>
+          <?php } ?>
+</section>
+
+
+<?php include("inc/footer.inc.php"); ?>

@@ -36,9 +36,11 @@ if(isset($_SESSION["id"])){
     }
 
 ?>
+<h1 style="text-align: center" class="box-title">Editer le profil</h1>
+<section class="contact-form" id="annonce">
 
-<h1 class="box-title">Editer le profil</h1>
-<form class="inscription" action="" method="post" name="editer" enctype='multipart/form-data'>
+
+<form class="form-group" action="" method="post" name="editer" enctype='multipart/form-data'>
   <div class="form-group">
     <h5 for="text">Nom</h5>
     <input type="text" class="form-control" value="<?php echo $user['nom']; ?>" name="nom" id="">
@@ -65,10 +67,18 @@ if(isset($_SESSION["id"])){
             <label for="titre">Photo</label>
             <input type="file" class="form-control-file" id="img" name="img[]">
   </div>
-  <button type="submit" name="editer" class="btn btn-primary">Modifier </button>
+  <input type="submit" name="editer" class="btn btn-primary">
 </form>
+
+</section>
+
+<?php include("inc/footer.inc.php"); ?>
+
 
 <?php }
     else{
         header('Location: connexion.php');
     } ?>
+
+
+
