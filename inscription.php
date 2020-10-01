@@ -47,10 +47,11 @@ if (isset($_POST['inscription'])){
   </div>
   
   <input type="submit" value="S'inscrire" name="inscription">
-</form>
-<?php if (! empty($message)) { ?>
+  <?php if (! empty($message)) { ?>
               <p><?php echo $message; ?></p>
           <?php } ?>
+</form>
+
 </section>
 
 
