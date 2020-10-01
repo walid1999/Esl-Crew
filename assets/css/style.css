@@ -72,7 +72,7 @@ header a:hover{
 .hero-content{
 	position: absolute;
 	bottom: 45%;
-    left: 23%;
+    left: 15%;
     color: black;   
 }
 
@@ -152,18 +152,19 @@ header a:hover{
 .article {
     width: 300px;
     height: 350px;
-    border: 1px solid white;
+    border: 1px solid black;
     position: relative;
     overflow: hidden;    
 }
 
 .article1{
-    background-image: url(../images/article1.jpg);
+    
     width: 300px;
     height: 350px;
     background-repeat: no-repeat; 
     background-size: cover;
     background-position:center;
+    
 }
 
 
@@ -311,15 +312,12 @@ header a:hover{
 
 
 
-.contact-form .form-group textarea:focus{
-	outline: none;
-	border: 3px solid black;	
-}
+
 
 footer{
     
     letter-spacing: 2px;
-    background: #2879E3;
+    background: black;
     text-align: center;
     color: white;
     height: 50px;

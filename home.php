@@ -11,7 +11,7 @@ session_start();
 
 <section class="hero">
         <div class="hero-content">
-            <h1>Nous vivons dans l'ombre pour servir la lumière</h1>                                    
+            <h1 style="text-align: center">Nous vivons dans l'ombre pour servir la lumière</h1>                                    
         </div>                       
 </section>
 	<!-- Banner -->
